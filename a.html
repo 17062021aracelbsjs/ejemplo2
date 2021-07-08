@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		body {
+			margin: 0px}
+		hr {
+			color: #ccc;
+			background: #ccc;
+			padding: 0px;}
+		.c {
+			font-family: calibri;
+			background-color: yellow;
+			text-align: center;}
+		.b {
+			background-color: yellow;}
+		.l {
+			margin: 30px;}
+	  .form-order {
+			text-align: center;}
+    #alquiler{width: 11em;}
+    #food{width: 11em;}
+    #costo{width: 11em ;}
+    #caja{width: 25px ;
+	height: 25px;
+  margin-right: 15px;
+  margin-bottom: : 15px ;
+	}
+  .a{
+			background-color: yellow;
+      margin-right:800px
+     ;
+      text-align : "center";
+       border : 6px ;
+       border : ridge;
+      padding:10px;}
+	</style>
+</head>
+<body>
+    <form action="" id="form-order">
+    <h1 class = "a">Travel Autorization Form</h1>    
+        <h3>Seccion A: Información del cliente<hr></h3>
+        <table>
+            <tr>
+                <td><label for="cargo">Cargo:</label></td>
+                <td><input type="text" name="cargo" id="cargo" placeholder="EMPRESARIO" 
+                minlength="4" maxlength="100" required autofocus pattern="[A-Z]+" size="40"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Nombre:</label></td>
+                <td><input type="text" name="nombre" id="nombre" placeholder="JUAN" minlength="4" maxlength="100" required autofocus pattern="[A-Z]+"></td>
+            </tr>
+            <tr>
+                <td><label for="apellido-1">Primer apellido:</label></td>
+                <td><input type="text" name="apellido-1" id="apellido-1" placeholder="RUÍZ" minlength="4" maxlength="100" required autofocus pattern="[A-Z]+"></td>
+            </tr>
+            <tr>
+                <td><label for="apellido-2">Segundo apellido:</label></td>
+                <td><input type="text" name="apellido-2" id="apellido-2" placeholder="SOSA" minlength="4" maxlength="100" required autofocus pattern="[A-Z]+"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Correo electrónico:</label></td>
+                <td><input type="email" name="email" id="email" placeholder="juan@hotmail.com,ruiz@gmail.com,..." size="40" required autofocus multiple></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Numero de teléfono:</label></td>
+                <td><input type="tel" name="telefono" id="telefono"
+                placeholder="123456789" maxlength="9" required autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="pagina">a. Página web:</label></td>
+                <td><input type="url" name="pagina" id="pagina" placeholder="http://www.aerolinea.es" required autofocus></td>
+            </tr>
+            <tr>
+                <td><h3>Seccion B: Información de viaje<hr></h3></td>
+            </tr>
+            <tr>
+                <td><label for="fecha de salida">Nombre de la aerolínea:</label></td>
+                <td><select  name="aerolinea">
+                <option selected value="0">Selecciona una aerolínea 
+                <option value="1">Peruvian Airlines (P9)</option> 
+                <option value="2">Avianca (AV)</option> 
+                <option value="3">LATAM Airlines (LA)</option>
+                <option value="4">Ulendo Airlink (W4) </option> 
+                <option value="5">Copa Airlines (CM)</option> 
+                <option value="6">American Airlines (AA) </option>
+                <option value="7">Air Europa (UX)</option>
+                <option value="8">Sky Airline (H2)</option>
+                </option></select></td>
+                <td><strong>Gastos adicionales estimados</td></strong>
+            </tr>
+            <tr>
+                <td><label for="destino">Destino:</label></td>
+                <td><input type="text" name="destino" id="destino" pattern="[A-Za-z\s]+" required autofocus placeholder= "Escribe tu destino" size="22"></td>
+                <td><label for="alquiler">Alquiler de coche:</label></td>
+                <td><input type="number" name="alquiler" id="alquiler" min="100" max="600" step= "2" placeholder="100 $" autofocus required></td>
+            </tr>
+            <tr>
+                <td><label for="fecha">Fecha de salida: </label></td>
+                <td><input type="date" name="fecha" id="fecha"
+                min="2018-01-01" required autofocus ></td>
+                <td><label for="hotel">Hotel:</label></td>
+                <td><input type="text" name="hotel" id="hotel" autofocus size="19"></td>
+            </tr>
+            <tr>
+                <td><label for="fecha">Fecha de regreso: </label></td>
+                <td><input type="date" name="fecha" id="fecha"
+                min="2018-01-01" required autofocus></td>
+                <td><label for="food">Comidas:</label></td>
+                <td><input type="number" name="food" id="food" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="costo">Costo estimado ($):</label></td>
+                <td><input type="number" name="costo" id="costo"
+                min="100" max="1000" pattern="[0-9]+" step="1" required autofocus value="100" placeholder="$100 - $1000"></td>
+                <td><label for="coin">Total estimado:</label></td>
+                <td><input type="number" name="coin" id="coin" placeholder="0,00 €" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="question">¿Incluye la visita al cliente?</label></td>
+                <td><input type="checkbox" name="question" required autofocus></td>
+                <td><br><fieldset>
+                    <legend><label for="pago"> Método de pago utilizado:</label></legend>
+                    <p><input type="radio" name="pago" id="pago" value="metalico">Metálico</p>
+                    <p><input type="radio" name="pago" id="pago" value="tarjeta">Tarjeta de crédito</p>
+                    <p><input type="radio" name="pago" id="pago" value="cheque">Cheque</p>
+                </fieldset><br><br></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><label for="detail">Propósito del viaje:</label></td>
+                <td><textarea name="detail" id="detail"
+                rows="5" cols="120"></textarea><br><br></td>
+            </tr>
+            <tr>
+                <td><button type="submit" id=button>Enviar</button></td>
+            </tr>
+        </table>
+    </form> 
+</body>
+</html>

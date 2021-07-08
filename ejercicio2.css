@@ -1,0 +1,44 @@
+body{
+    background: white;
+}
+
+
+
+div[class|="col-md-12 col-lg-12 col-xl-12"]{
+    border: 3px solid white;
+    background: rgb(183, 219, 21);
+    text-align: center;
+    padding: 3em;
+} 
+div[class|="col-md-12 col-lg-12 col-xl-12 col-sm-12"]{
+    border: 3px solid white;
+    background: rgb(218, 23, 153);
+    text-align: center;
+    padding: 1em;
+} 
+div[class|="col-sm-2"]{
+    border: 3px solid white;
+    background: rgb(243, 70, 17);
+    text-align: center;
+    padding: 1em;
+} 
+
+div[class|="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6"]{
+    border: 3px solid white;
+    background: rgb(43, 7, 141);
+    text-align: center;
+    padding: 1em;
+} 
+div[class|="col-md-4 col-lg-4 col-xl-4 col-sm-4 col-6"]{
+    border: 3px solid white;
+    background: rgb(3, 22, 187);
+    text-align: center;
+    padding: 3em;
+} 
+div[class|="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-sm-12 col-12"]{
+    border: 3px solid white;
+    background: rgb(212, 151, 60);
+    text-align: center;
+    padding: 4em;
+} 
+

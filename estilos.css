@@ -1,0 +1,27 @@
+/*unidades de medida -relativa */
+body{ 
+    font-size:20px
+ }
+.casa { 
+    font-size:2em
+ }
+.ara{ 
+    font-size:1ex
+ }
+ /*Tipos de colores de css -decimal*/
+
+.casa { 
+    color: rgb(237, 128, 19 )
+ }
+  /*definicion sexadecimal */
+.ara{ 
+    color:#ED8013 ;
+}
+/*color con formato de opacidad
+ alpha define el nivel de transparencia de color de 0 a 1 porque 
+ trabaja en decimales  0,01,0.02 etc */
+ body{ 
+    background: rgba(237, 128, 19,0.5);
+ }
+ 
+

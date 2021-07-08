@@ -1,0 +1,96 @@
+body{
+    background: white;
+}
+ div[class|="col"]{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(143, 207, 70);
+    text-align: center;
+    padding: 1em;
+} 
+ 
+.col-md-3{
+    border: 5px solid white;
+    background: rgb(57, 8, 235);
+    text-align: center;
+    padding: 3em;
+
+} 
+.col-md-8{
+    border: 5px solid white;
+    background: rgb(196, 15, 126);
+    text-align: center;
+    padding: 1em;
+} 
+.col-md-1{
+    border: 5px solid white;
+    background: rgb(46, 16, 219);
+    text-align: center;
+    padding: 1em red 3px ;
+} 
+
+
+.col-md-12 {
+    
+    background: rgb(9, 199, 9);
+    text-align: center;
+    padding: 2em;
+} 
+
+.col-md-2 {
+    border: 5px solid white;
+    background: rgb(66, 9, 173);
+    text-align: center;
+    padding: 1em;
+} 
+.col-md-4 {
+    border: 5px solid white;
+    background: rgb(233, 104, 18);
+    text-align: center;
+    padding: 4em;
+} 
+
+
+ 
+/* 
+.q[class|="col"]{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(24, 9, 231);
+    text-align: center;
+    padding: 1em;
+}  */
+/* .casa{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(243, 142, 11);
+    text-align: center;
+    padding: 1em;
+}
+.v{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(54, 34, 167);
+    text-align: center;
+    padding: 1em;
+}
+.f{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(231, 34, 67);
+    text-align: center;
+    padding: 1em;
+} */
+/* .t{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(143, 207, 70);
+    text-align: center;
+    padding: 1em;
+}
+.y{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(103, 148, 207);
+    text-align: center;
+    padding: 1em;
+}
+.w{
+    border: 1px solid rgb(155, 33, 33);
+    background: rgb(211, 83, 32);
+    text-align: center;
+    padding: 1em;
+} */

@@ -1,0 +1,40 @@
+
+
+/* diferencia entre elementos de  bloque y elemnento de lineas
+,a los elementos de lineaa no se le puede dar ancho y alto  A CAJAS SI SE PUEDE COMO DIV ETC. */
+
+div{ 
+    width:300px;
+    height:150px;
+    background: royalblue;
+    margin:50px 50px;
+    padding:30px;
+    display: inline-block ;
+    border: 5px solid red ;
+}
+
+/* posicion:fixed */
+
+
+
+.cuadrado { width:200px;
+    height:200px;
+    position:fixed;
+
+   
+}
+.rectangulo { width:300px;
+    height:300px;
+   
+}
+/* La clase circulo en el html se inserto en el div de rectangulo por lo tanto se movio dentro de l cuadrado ya de ahi 
+se puede mover con left top etc.Es una buena practica de hacer. */
+
+
+.circulo{ width:20px;
+    height:20px;
+   background: red;
+   border-radius: 50px;
+   position: absolute;
+   left:50px
+}
